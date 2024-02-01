@@ -4,7 +4,7 @@
       "id": 1,
       "title": "common",
       "rate": 70,
-      "items": [
+      "skins": [
         {
           "id": 1,
           "name": "ward",
