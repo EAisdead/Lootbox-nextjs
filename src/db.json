@@ -1,0 +1,73 @@
+{
+  "items_cat": [
+    {
+      "id": "common",
+      "rate": 70,
+      "items": [
+        {
+          "id": 1,
+          "name": "ward",
+          "image_url": "@/assets/ward.ico"
+        },
+        {
+          "id": 2,
+          "name": "aegis",
+          "image_url": "@/assets/aegis.ico"
+        },
+        {
+          "id": 3,
+          "name": "beads",
+          "image_url": "@/assets/beads.ico"
+        }
+      ]
+    },
+    {
+      "id": "rare",
+      "rate": 50,
+      "items": [
+        {
+          "id": 4,
+          "name": "blink",
+          "image_url": "@/assets/blink.ico"
+        },
+        {
+          "id": 5,
+          "name": "thorns",
+          "image_url": "@/assets/thorns.ico"
+        },
+        {
+          "id": 6,
+          "name": "sprint",
+          "image_url": "@/assets/sprint.ico"
+        }
+      ]
+    },
+    {
+      "id": "epic",
+      "rate": 20,
+      "items": [
+        {
+          "id": 7,
+          "name": "red buff",
+          "image_url": "@/assets/red_buff.ico"
+        },
+        {
+          "id": 8,
+          "name": "blue buff",
+          "image_url": "@/assets/blue_buff.ico"
+        }
+      ]
+    },
+    {
+      "id": "legendary",
+      "rate": 1,
+      "items": [
+        {
+          "id": 9,
+          "name": "fire giant",
+          "image_url": "@/assets/fire_giant.ico"
+        }
+      ]
+    }
+  ]
+}
