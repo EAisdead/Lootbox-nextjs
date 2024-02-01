@@ -1,5 +1,5 @@
 {
-  "items_cat": [
+  "common": [
     {
       "id": "common",
       "rate": 70,
@@ -20,7 +20,9 @@
           "image_url": "@/assets/beads.ico"
         }
       ]
-    },
+    }
+  ],
+  "rare": [
     {
       "id": "rare",
       "rate": 50,
@@ -41,7 +43,9 @@
           "image_url": "@/assets/sprint.ico"
         }
       ]
-    },
+    }
+  ],
+  "epic": [
     {
       "id": "epic",
       "rate": 20,
@@ -57,7 +61,9 @@
           "image_url": "@/assets/blue_buff.ico"
         }
       ]
-    },
+    }
+  ],
+  "legendary": [
     {
       "id": "legendary",
       "rate": 1,
