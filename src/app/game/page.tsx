@@ -3,20 +3,15 @@ import Image from "next/image";
 
 export default async function GamePage() {
   const { items_cat } = await api.item.home();
-  const commons = await api.item.common();
   return (
     <div>
-      <section>
+      <section className="border-2">
         {items_cat.map((item) => (
-          <div key={item.id} className="border-2">
+          <div key={item.id}>
             <p>{item.id} </p>
-            <p>{item.rate} </p>
+            <p>{item.rates} </p>
           </div>
         ))}
-      </section>
-      <section className="border-2">
-        <p>{commons.id} </p>
-        <p>{commons.rate} </p>
       </section>
     </div>
   );

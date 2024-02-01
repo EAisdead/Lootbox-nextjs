@@ -7,26 +7,23 @@ const api = {
         (res) =>
           res.json() as Promise<{
             items_cat: {
-              id: number;
-              title: string;
-              rate: number;
+              id: string;
+              rates: number;
+              common: {
+                name: string;
+              }[];
             }[];
           }>
       ),
-    common: () =>
+    ratess: () =>
       fetch(
-        `https://my-json-server.typicode.com/EAisdead/Lootbox-nextjs/common`
+        `https://my-json-server.typicode.com/EAisdead/Lootbox-nextjs/db`
       ).then(
         (res) =>
           res.json() as Promise<{
             id: number;
-            title: string;
+            name: string;
             rate: number;
-            items: {
-              id: number;
-              name: string;
-              image_url: string;
-            }[];
           }>
       ),
   },
