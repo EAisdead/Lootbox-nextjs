@@ -2,17 +2,30 @@ import api from "@/api";
 import Image from "next/image";
 
 export default async function GamePage() {
-  const { items_cat } = await api.item.home();
+  const { rates } = await api.item.rates();
+  const { legendary } = await api.item.home();
   return (
     <div>
-      <section className="border-2">
-        {items_cat.map((item) => (
-          <div key={item.id}>
-            <p>{item.id} </p>
-            <p>{item.rates} </p>
-          </div>
-        ))}
-      </section>
+      {rates.map((item) => (
+        <div key={item.id}>
+          <p>
+            {item.name} \|/ {item.rate}{" "}
+          </p>
+        </div>
+      ))}
+      {legendary.map((item) => (
+        <div key={item.id}>
+          <p>
+            {item.id} \|/ {item.name}{" "}
+          </p>
+          <Image
+            src={item.image_url}
+            alt={item.name}
+            width={32}
+            height={32}
+          ></Image>
+        </div>
+      ))}
     </div>
   );
 }

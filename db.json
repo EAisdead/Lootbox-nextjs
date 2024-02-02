@@ -3,53 +3,53 @@
     {
       "id": 1,
       "name": "ward",
-      "image_url": "@/assets/ward.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/f1/Icons_Wards_Basic_01.png"
     },
     {
       "id": 2,
       "name": "aegis",
-      "image_url": "@/assets/aegis.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/a0/AegisAmulet_Relic_S9.png"
     },
     {
       "id": 3,
       "name": "beads",
-      "image_url": "@/assets/beads.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/fa/PurificationBeads_Relic_S9.png"
     }
   ],
   "rare": [
     {
       "id": 1,
       "name": "blink",
-      "image_url": "@/assets/blink.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/b5/BlinkRune_Relic_S9.png/"
     },
     {
       "id": 2,
       "name": "thorns",
-      "image_url": "@/assets/thorns.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/5/58/ShieldofThorns_Relic_S9.png/"
     },
     {
       "id": 3,
       "name": "sprint",
-      "image_url": "@/assets/sprint.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/9/98/HeavenlyWings_Relic_S9.png/"
     }
   ],
   "epic": [
     {
       "id": 1,
       "name": "red buff",
-      "image_url": "@/assets/red_buff.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/83/NPC_Conquest_Manticore.png/"
     },
     {
       "id": 2,
       "name": "blue buff",
-      "image_url": "@/assets/blue_buff.ico"
+      "image_url": "http://static.wikia.nocookie.net/smite_gamepedia/images/b/bd/NPC_Conquest_Satyr.png/"
     }
   ],
   "legendary": [
     {
       "id": 1,
       "name": "fire giant",
-      "image_url": "@/assets/fire_giant.ico"
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/bf/NPC_firegiant_y10.png/"
     }
   ],
   "rates": [

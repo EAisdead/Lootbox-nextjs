@@ -1,31 +1,33 @@
 const api = {
   item: {
-    home: () =>
+    rates: () =>
       fetch(
-        `https://my-json-server.typicode.com/EAisdead/Lootbox-nextjs/db`
+        `https://my-json-server.typicode.com/eaisdead/lootbox-nextjs/db`
       ).then(
         (res) =>
           res.json() as Promise<{
-            items_cat: {
-              id: string;
-              rates: number;
-              common: {
-                name: string;
-              }[];
+            rates: {
+              id: number;
+              name: string;
+              rate: number;
             }[];
           }>
       ),
-    ratess: () =>
+
+    home: () =>
       fetch(
-        `https://my-json-server.typicode.com/EAisdead/Lootbox-nextjs/db`
+        `https://my-json-server.typicode.com/eaisdead/lootbox-nextjs/db`
       ).then(
         (res) =>
           res.json() as Promise<{
-            id: number;
-            name: string;
-            rate: number;
+            legendary: {
+              id: number;
+              name: string;
+              image_url: string;
+            }[];
           }>
       ),
   },
 };
+
 export default api;
