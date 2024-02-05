@@ -7,7 +7,7 @@ const api = {
         (res) =>
           res.json() as Promise<{
             rates: {
-              id: number;
+              id: string;
               name: string;
               rate: number;
               rate_por: number;
