@@ -1,19 +1,21 @@
 {
-  "common": [
+  "legendary": [
     {
       "id": 1,
-      "name": "ward",
-      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/f1/Icons_Wards_Basic_01.png"
+      "name": "fire giant",
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/bf/NPC_firegiant_y10.png/"
+    }
+  ],
+  "epic": [
+    {
+      "id": 1,
+      "name": "red buff",
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/83/NPC_Conquest_Manticore.png/"
     },
     {
       "id": 2,
-      "name": "aegis",
-      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/a0/AegisAmulet_Relic_S9.png"
-    },
-    {
-      "id": 3,
-      "name": "beads",
-      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/fa/PurificationBeads_Relic_S9.png"
+      "name": "blue buff",
+      "image_url": "http://static.wikia.nocookie.net/smite_gamepedia/images/b/bd/NPC_Conquest_Satyr.png/"
     }
   ],
   "rare": [
@@ -33,45 +35,47 @@
       "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/9/98/HeavenlyWings_Relic_S9.png/"
     }
   ],
-  "epic": [
+  "common": [
     {
       "id": 1,
-      "name": "red buff",
-      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/83/NPC_Conquest_Manticore.png/"
+      "name": "ward",
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/f1/Icons_Wards_Basic_01.png"
     },
     {
       "id": 2,
-      "name": "blue buff",
-      "image_url": "http://static.wikia.nocookie.net/smite_gamepedia/images/b/bd/NPC_Conquest_Satyr.png/"
-    }
-  ],
-  "legendary": [
+      "name": "aegis",
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/a/a0/AegisAmulet_Relic_S9.png"
+    },
     {
-      "id": 1,
-      "name": "fire giant",
-      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/bf/NPC_firegiant_y10.png/"
+      "id": 3,
+      "name": "beads",
+      "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/f/fa/PurificationBeads_Relic_S9.png"
     }
   ],
   "rates": [
     {
       "id": 1,
-      "name": "common",
-      "rate": 70
+      "name": "legendary",
+      "rate": 1,
+      "rate_por": 1
     },
     {
       "id": 2,
-      "name": "rare",
-      "rate": 50
+      "name": "epic",
+      "rate": 9,
+      "rate_por": 10
     },
     {
       "id": 3,
-      "name": "epic",
-      "rate": 20
+      "name": "rare",
+      "rate": 20,
+      "rate_por": 30
     },
     {
       "id": 4,
-      "name": "legendary",
-      "rate": 1
+      "name": "common",
+      "rate": 70,
+      "rate_por": 100
     }
   ]
 }

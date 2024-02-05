@@ -17,9 +17,12 @@ export default function Home() {
         </p>
       </article>
       <article className="text-center my-32">
-        <button className="text-7xl border-2 border-green-700 rounded-[100%] py-12 px-6 bg-green-700 hover:scale-125 transition-all duration-300 ease-in-out">
+        <Link
+          href={"/game"}
+          className="text-7xl border-2 border-green-700 rounded-[100%] py-10 px-6 hover:py-12 hover:px-8 bg-green-700 transition-all duration-300 ease-in-out"
+        >
           Play
-        </button>
+        </Link>
       </article>
     </section>
   );

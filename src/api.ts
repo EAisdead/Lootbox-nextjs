@@ -1,8 +1,8 @@
 const api = {
   item: {
-    rates: () =>
+    rateDrops: () =>
       fetch(
-        `https://my-json-server.typicode.com/eaisdead/lootbox-nextjs/db`
+        `https://my-json-server.typicode.com/eaisdead/lootbox-nextjs/rates`
       ).then(
         (res) =>
           res.json() as Promise<{
@@ -10,24 +10,10 @@ const api = {
               id: number;
               name: string;
               rate: number;
-            }[];
-          }>
-      ),
-
-    home: () =>
-      fetch(
-        `https://my-json-server.typicode.com/eaisdead/lootbox-nextjs/db`
-      ).then(
-        (res) =>
-          res.json() as Promise<{
-            legendary: {
-              id: number;
-              name: string;
-              image_url: string;
+              rate_por: number;
             }[];
           }>
       ),
   },
 };
-
 export default api;
