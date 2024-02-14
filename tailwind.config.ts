@@ -13,6 +13,29 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      gridTemplateColumns: {
+        sidebar: "300px auto",
+      },
+      gridTemplateRows: {
+        header: "64px auto",
+      },
+      keyframes: {
+        spins: {
+          "0%": { transform: "rotate(0turn)" },
+          "100%": { transform: "rotate(1turn)" },
+        },
+      },
+      animation: {
+        spins: "spins 300ms ease-in-out",
+      },
+      loader: {
+        "pointer-events": "none",
+        width: "30px",
+        height: "30px",
+        "border-radius": "50%",
+        border: "3px solid transparent",
+        "border-top-color": "#fff",
+      },
     },
   },
   plugins: [],

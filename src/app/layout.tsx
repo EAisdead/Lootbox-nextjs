@@ -4,6 +4,7 @@ import EAFooter from "./components/footer";
 import Image from "next/image";
 import EAlogo from "./assets/EAthink.png";
 import Link from "next/link";
+import Navigation from "./components/navigation";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,12 +32,8 @@ export default function RootLayout({
                 className="w-16 h-16 hover:scale-95 transition-all duration-300 ease-out"
               ></Image>
             </Link>
-            <Link
-              className="text-lg my-auto hover:underline hover:scale-110 transition-all duration-300 ease-in md:hover:scale-125 md:text-xl lg:text-3xl"
-              href={"/"}
-            >
-              Prizes
-            </Link>
+
+            <Navigation />
           </div>
         </header>
         <main className=" max-w-screen-lg m-auto">{children}</main>

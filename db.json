@@ -4,6 +4,11 @@
       "id": "1",
       "name": "fire giant",
       "image_url": "https://static.wikia.nocookie.net/smite_gamepedia/images/b/bf/NPC_firegiant_y10.png/"
+    },
+    {
+      "id": 0,
+      "name": "blank",
+      "image_url": "null"
     }
   ],
   "epic": [

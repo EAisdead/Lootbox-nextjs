@@ -1,15 +1,12 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { asd } from "@/gameL";
-import api from "@/api";
-import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function GamePage() {
+  const [effect, setEffect] = useState(false);
   const handleRefresh = () => {
-    setTimeout(function () {
-      window.location.reload();
-    }, 1000);
+    window.location.reload();
   };
   return (
     <section className="border-2 h-[75vh] m-8 rounded-xl border-green-700 ">
@@ -26,8 +23,14 @@ export default function GamePage() {
         </div>
         <div className="grid justify-center">
           <button
-            className="border-2 w-64 h-16 my-20 hover:scale-110 transition-all duration-500 ease-linear hover:bg-green-700 rounded-lg"
-            onClick={handleRefresh}
+            className={`border-2 w-64 h-16 my-20 hover:scale-110 transition-all duration-500 ease-linear hover:bg-green-700 rounded-lg ${
+              effect && "animate-spins"
+            }`}
+            onClick={() => {
+              setEffect(true);
+              handleRefresh();
+            }}
+            onAnimationEnd={() => setEffect(false)}
           >
             Roll
           </button>

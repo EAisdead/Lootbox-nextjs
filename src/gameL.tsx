@@ -7,15 +7,15 @@ export async function legendary() {
   return (
     <div>
       <Image
-        src={mArr[1].toString()}
-        alt={mArr[0].toString()}
+        src={mArr[0][1].toString()}
+        alt={mArr[0][0].toString()}
         width={256}
         height={256}
         placeholder="empty"
         className="rounded-lg"
       ></Image>
-      <p className="my-8 text-lg">
-        {mArr[0].charAt(0).toLocaleUpperCase() + mArr[0].slice(1)}
+      <p className="my-8 text-lg bg-orange-400 rounded-xl text-black">
+        {mArr[0].toString().charAt(0).toLocaleUpperCase() + mArr[0].slice(1)}
       </p>
     </div>
   );
@@ -35,7 +35,7 @@ export async function epic() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-purple-700 rounded-xl text-black">
           {mArr[0][0].charAt(0).toLocaleUpperCase() + mArr[0][0].slice(1)}
         </p>
       </div>
@@ -51,7 +51,7 @@ export async function epic() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-purple-700 rounded-xl text-black">
           {mArr[1][0].charAt(0).toLocaleUpperCase() + mArr[1][0].slice(1)}
         </p>
       </div>
@@ -73,7 +73,7 @@ export async function rare() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-blue-600 rounded-xl text-black">
           {mArr[0][0].charAt(0).toLocaleUpperCase() + mArr[0][0].slice(1)}
         </p>
       </div>
@@ -89,7 +89,7 @@ export async function rare() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-blue-600 rounded-xl text-black">
           {mArr[1][0].charAt(0).toLocaleUpperCase() + mArr[1][0].slice(1)}
         </p>
       </div>
@@ -105,7 +105,7 @@ export async function rare() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-blue-600 rounded-xl text-black">
           {mArr[2][0].charAt(0).toLocaleUpperCase() + mArr[2][0].slice(1)}
         </p>
       </div>
@@ -127,7 +127,7 @@ export async function common() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-gray-300 rounded-xl text-black">
           {mArr[0][0].charAt(0).toLocaleUpperCase() + mArr[0][0].slice(1)}
         </p>
       </div>
@@ -143,7 +143,7 @@ export async function common() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-gray-300 rounded-xl text-black">
           {mArr[1][0].charAt(0).toLocaleUpperCase() + mArr[1][0].slice(1)}
         </p>
       </div>
@@ -159,7 +159,7 @@ export async function common() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg">
+        <p className="my-8 text-lg bg-gray-300 rounded-xl text-black">
           {mArr[2][0].charAt(0).toLocaleUpperCase() + mArr[2][0].slice(1)}
         </p>
       </div>
