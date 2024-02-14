@@ -160,9 +160,11 @@ export async function common() {
           placeholder="empty"
           className="rounded-lg"
         ></Image>
-        <p className="my-8 text-lg bg-gray-300 rounded-xl text-black">
-          {mArr[2][0].charAt(0).toLocaleUpperCase() + mArr[2][0].slice(1)}
-        </p>
+        <div className="bg-gray-300 text-black">
+          <p className="my-8 text-lg rounded-xl border-2 bg-gray-300">
+            {mArr[2][0].charAt(0).toLocaleUpperCase() + mArr[2][0].slice(1)}
+          </p>
+        </div>
       </div>
     );
   }
