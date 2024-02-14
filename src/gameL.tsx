@@ -15,7 +15,8 @@ export async function legendary() {
         className="rounded-lg"
       ></Image>
       <p className="my-8 text-lg bg-orange-400 rounded-xl text-black">
-        {mArr[0].toString().charAt(0).toLocaleUpperCase() + mArr[0].slice(1)}
+        {mArr[0][0].toString().charAt(0).toLocaleUpperCase() +
+          mArr[0][0].slice(1)}
       </p>
     </div>
   );
