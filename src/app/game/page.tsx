@@ -17,14 +17,13 @@ export default function GamePage() {
         Go Back
       </Link>
       <article>
-        <p className="text-center mt-20 text-xl mx-auto">Your item:</p>
-        <div className="text-center w-56 h-56 border-2 mt-6 mx-auto rounded-lg">
-          {asd()}
-        </div>
+        <p className="text-center mt-20 mb-4 text-xl mx-auto">Your item:</p>
+        <div className="w-56 mx-auto">{asd()}</div>
         <div className="grid justify-center">
           <button
-            className={`border-2 w-64 h-16 my-20 hover:scale-110 transition-all duration-500 ease-linear hover:bg-green-700 rounded-lg ${
-              effect && "animate-spins"
+            className={`border-2 w-64 h-16 hover:scale-110 transition-all duration-500 ease-linear hover:bg-green-700 rounded-lg ${
+              effect &&
+              "animate-spins w-30 h-30 rounded-[50%] border-[3px] border-transparent border-t-slate-600"
             }`}
             onClick={() => {
               setEffect(true);
