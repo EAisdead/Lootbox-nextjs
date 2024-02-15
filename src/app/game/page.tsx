@@ -2,10 +2,13 @@
 import Link from "next/link";
 import { asd } from "@/gameL";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function GamePage() {
   const [effect, setEffect] = useState(false);
+  const router = useRouter();
   const handleRefresh = () => {
+    router.refresh();
     window.location.reload();
   };
   return (

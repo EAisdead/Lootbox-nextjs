@@ -4,7 +4,7 @@ export default function SidebarCont() {
   return (
     <div>
       <li className="bg-green-900 rounded-xl mx-4 pt-1">
-        <h1 className=" text-gray-300">Commons:</h1>
+        <h1 className=" text-gray-300">Common:</h1>
         <div>
           <ul className="flex justify-center mt-2 text-sm pb-2">
             <li className="hover:scale-110 transition-transform duration-300 ease-linear">
