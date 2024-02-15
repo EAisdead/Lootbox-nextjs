@@ -23,7 +23,7 @@ export default function GamePage() {
           <button
             className={`border-2 w-64 h-16 hover:scale-110 transition-all duration-500 ease-linear hover:bg-green-700 rounded-lg ${
               effect &&
-              "animate-spins w-30 h-30 rounded-[50%] border-[3px] border-transparent border-t-slate-600"
+              "animate-spins w-30 h-30 rounded-[50%] border-[3px] border-transparent border-t-slate-600 pointer-events-none"
             }`}
             onClick={() => {
               setEffect(true);
